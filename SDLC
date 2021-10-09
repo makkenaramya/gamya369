@@ -1,0 +1,203 @@
+Software Development Life Cycle (SDLC)
+A software life cycle model (also termed process model) is a pictorial and diagrammatic representation of the software life cycle. A life cycle model represents all the methods required to make a software product transit through its life cycle stages. It also captures the structure in which these methods are to be undertaken.
+In other words, a life cycle model maps the various activities performed on a software product from its inception to retirement. Different life cycle models may plan the necessary development activities to phases in different ways. Thus, no element which life cycle model is followed, the essential activities are contained in all life cycle models though the action may be carried out in distinct orders in different life cycle models. During any life cycle stage, more than one activity may also be carried out
+
+SDLC Cycle
+SDLC Cycle represents the process of developing software. SDLC framework includes the following steps:
+The stages of SDLC are as follows:
+
+Stage1: Planning and requirement analysis
+Requirement Analysis is the most important and necessary stage in SDLC.
+The senior members of the team perform it with inputs from all the stakeholders and domain experts or SMEs in the industry.
+Planning for the quality assurance requirements and identifications of the risks associated with the projects is also done at this stage.
+Business analyst and Project organizer set up a meeting with the client to gather all the data like what the customer wants to build, who will be the end user, what is the objective of the product. Before creating a product, a core understanding or knowledge of the product is very necessary.
+For Example, A client wants to have an application which concerns money transactions. In this method, the requirement has to be precise like what kind of operations will be done, how it will be done, in which currency it will be done, etc.
+Once the required function is done, an analysis is complete with auditing the feasibility of the growth of a product. In case of any ambiguity, a signal is set up for further discussion.
+Once the requirement is understood, the SRS (Software Requirement Specification) document is created. The developers should thoroughly follow this document and also should be reviewed by the customer for future reference.
+
+Stage2: Defining Requirements
+Once the requirement analysis is done, the next stage is to certainly represent and document the software requirements and get them accepted from the project stakeholders.
+This is accomplished through "SRS"- Software Requirement Specification document which contains all the product requirements to be constructed and developed during the project life cycle.
+
+Stage3: Designing the Software
+The next phase is about to bring down all the knowledge of requirements, analysis, and design of the software project. This phase is the product of the last two, like inputs from the customer and requirement gathering.
+
+Stage4: Developing the project
+In this phase of SDLC, the actual development begins, and the programming is built. The implementation of design begins concerning writing code. Developers have to follow the coding guidelines described by their management and programming tools like compilers, interpreters, debuggers, etc. are used to develop and implement the code.
+
+Stage5: Testing
+After the code is generated, it is tested against the requirements to make sure that the products are solving the needs addressed and gathered during the requirements stage.
+During this stage, unit testing, integration testing, system testing, acceptance testing are done.
+
+Stage6: Deployment
+Once the software is certified, and no bugs or errors are stated, then it is deployed.
+Then based on the assessment, the software may be released as it is or with suggested enhancement in the object segment.
+After the software is deployed, then its maintenance begins.
+
+Stage7: Maintenance
+Once when the client starts using the developed systems, then the real issues come up and requirements to be solved from time to time.
+This procedure where the care is taken for the developed product is known as maintenance.
+
+
++SDLC Models
+Software Development life cycle (SDLC) is a spiritual model used in project management that defines the stages include in an information system development project, from an initial feasibility study to the maintenance of the completed application.
+There are different software development life cycle models specify and design, which are followed during the software development phase. These models are also called "Software Development Process Models." Each process model follows a series of phase unique to its type to ensure success in the step of software development.
+
+Waterfall Model
+The waterfall is a universally accepted SDLC model. In this method, the whole process of software development is divided into various phases.
+The waterfall model is a continuous software development model in which development is seen as flowing steadily downwards (like a waterfall) through the steps of requirements analysis, design, implementation, testing (validation), integration, and maintenance.
+Linear ordering of activities has some significant consequences. First, to identify the end of a phase and the beginning of the next, some certification techniques have to be employed at the end of each step. Some verification and validation usually do this mean that will ensure that the output of the stage is consistent with its input (which is the output of the previous step), and that the output of the stage is consistent with the overall requirements of the system.
+
+RAD Model
+RAD or Rapid Application Development process is an adoption of the waterfall model; it targets developing software in a short period. The RAD model is based on the concept that a better system can be developed in lesser time by using focus groups to gather system requirements.
+*Business Modeling
+*Data Modeling
+*Process Modeling
+*Application Generation
+*Testing and Turnover
+
+Spiral Model
+The spiral model is a risk-driven process model. This SDLC model helps the group to adopt elements of one or more process models like a waterfall, incremental, waterfall, etc. The spiral technique is a combination of rapid prototyping and concurrency in design and development activities.
+Each cycle in the spiral begins with the identification of objectives for that cycle, the different alternatives that are possible for achieving the goals, and the constraints that exist. This is the first quadrant of the cycle (upper-left quadrant).
+The next step in the cycle is to evaluate these different alternatives based on the objectives and constraints. The focus of evaluation in this step is based on the risk perception for the project.
+The next step is to develop strategies that solve uncertainties and risks. This step may involve activities such as benchmarking, simulation, and prototyping.
+
+V-Model
+In this type of SDLC model testing and the development, the step is planned in parallel. So, there are verification phases on the side and the validation phase on the other side. V-Model joins by Coding phase.
+
+Incremental Model
+The incremental model is not a separate model. It is necessarily a series of waterfall cycles. The requirements are divided into groups at the start of the project. For each group, the SDLC model is followed to develop software. The SDLC process is repeated, with each release adding more functionality until all requirements are met. In this method, each cycle act as the maintenance phase for the previous software release. Modification to the incremental model allows development cycles to overlap. After that subsequent cycle may begin before the previous cycle is complete.
+
+Agile Model
+Agile methodology is a practice which promotes continues interaction of development and testing during the SDLC process of any project. In the Agile method, the entire project is divided into small incremental builds. All of these builds are provided in iterations, and each iteration lasts from one to three weeks.
+Any agile software phase is characterized in a manner that addresses several key assumptions about the bulk of software projects:
+It is difficult to think in advance which software requirements will persist and which will change. It is equally difficult to predict how user priorities will change as the project proceeds.
+For many types of software, design and development are interleaved. That is, both activities should be performed in tandem so that design models are proven as they are created. It is difficult to think about how much design is necessary before construction is used to test the configuration.
+Analysis, design, development, and testing are not as predictable (from a planning point of view) as we might like.
+
+Iterative Model
+It is a particular implementation of a software development life cycle that focuses on an initial, simplified implementation, which then progressively gains more complexity and a broader feature set until the final system is complete. In short, iterative development is a way of breaking down the software development of a large application into smaller pieces.
+
+Big bang model
+Big bang model is focusing on all types of resources in software development and coding, with no or very little planning. The requirements are understood and implemented when they come.
+This model works best for small projects with smaller size development team which are working together. It is also useful for academic software development projects. It is an ideal model where requirements are either unknown or final release date is not given.
+
+Prototype Model
+The prototyping model starts with the requirements gathering. The developer and the user meet and define the purpose of the software, identify the needs, etc.
+A 'quick design' is then created. This design focuses on those aspects of the software that will be visible to the user. It then leads to the development of a prototype. The customer then checks the prototype, and any modifications or changes that are needed are made to the prototype
+Looping takes place in this step, and better versions of the prototype are created. These are continuously shown to the user so that any new changes can be updated in the prototype. This process continue until the customer is satisfied with the system. Once a user is satisfied, the prototype is converted to the actual system with all considerations for quality and security.
+
+
+#UML
+UML (Unified Modeling Language) is a general-purpose, graphical modeling language in the field of Software Engineering. UML is used to specify, visualize, construct, and document the artifacts (major elements) of the software system. It was initially developed by Grady Booch, Ivar Jacobson, and James Rumbaugh in 1994-95 at Rational software, and its further development was carried out through 1996. In 1997, it got adopted as a standard by the Object Management Group.
+
+Goals of UML
++Since it is a general-purpose modeling language, it can be utilized by all the modelers.
++UML came into existence after the introduction of object-oriented concepts to systemize and consolidate the object-oriented development, due to the absence of standard methods at that time.
++The UML diagrams are made for business users, developers, ordinary people, or anyone who is looking forward to understand the system, such that the system can be software or non-software.
++Thus it can be concluded that the UML is a simple modeling approach that is used to model all the practical systems.
+
+Characteristics of UML
+The UML has the following features:
++It is a generalized modeling language.
++It is distinct from other programming languages like C++, Python, etc.
++It is interrelated to object-oriented analysis and design.
++It is used to visualize the workflow of the system.
++It is a pictorial language, used to generate powerful modeling artifacts.
+
+UML-Building Blocks
+UML is composed of three main building blocks, i.e., things, relationships, and diagrams. Building blocks generate one complete UML model diagram by rotating around several different blocks. It plays an essential role in developing UML diagrams. The basic UML building blocks are enlisted below:
++Things
++Relationships
++Diagrams
+
+Things
+Anything that is a real world entity or object is termed as things. It can be divided into several different categories:
++Structural things
++Behavioral things
++Grouping things
++Annotational things
++Structural things
+
+Nouns that depicts the static behavior of a model is termed as structural things. They display the physical and conceptual components. They include class, object, interface, node, collaboration, component, and a use case.
+
+Class: A Class is a set of identical things that outlines the functionality and properties of an object. It also represents the abstract class whose functionalities are not defined. Its notation is as follows;
+
+Object:: An individual that describes the behavior and the functions of a system. The notation of the object is similar to that of the class; the only difference is that the object name is always underlined and its notation is given below;
+
+Interface: A set of operations that describes the functionality of a class, which is implemented whenever an interface is implemented.
+
+Collaboration: It represents the interaction between things that is done to meet the goal. It is symbolized as a dotted ellipse with its name written inside it.
+
+Use case: Use case is the core concept of object-oriented modeling. It portrays a set of actions executed by a system to achieve the goal.
+
+Actor: It comes under the use case diagrams. It is an object that interacts with the system, for example, a user.
+
+Component: It represents the physical part of the system.
+
+Node: A physical element that exists at run time.
+
+Behavioral Things
+They are the verbs that encompass the dynamic parts of a model. It depicts the behavior of a system. They involve state machine, activity diagram, interaction diagram, grouping things, annotation things
+
+State Machine: It defines a sequence of states that an entity goes through in the software development lifecycle. It keeps a record of several distinct states of a system component.
+
+Activity Diagram: It portrays all the activities accomplished by different entities of a system. It is represented the same as that of a state machine diagram. It consists of an initial state, final state, a decision box, and an action notation.
+
+Interaction Diagram: It is used to envision the flow of messages between several components in a system.
+
+Grouping Things
+It is a method that together binds the elements of the UML model. In UML, the package is the only thing, which is used for grouping.
+
+Package: Package is the only thing that is available for grouping behavioral and structural things.
+
+Annotation Things
+It is a mechanism that captures the remarks, descriptions, and comments of UML model elements. In UML, a note is the only Annotational thing.
+
+Relationships
+It illustrates the meaningful connections between things. It shows the association between the entities and defines the functionality of an application. There are four types of relationships given below:
+Dependency: Dependency is a kind of relationship in which a change in target element affects the source element, or simply we can say the source element is dependent on the target element. It is one of the most important notations in UML. It depicts the dependency from one entity to another.
+
+It is denoted by a dotted line followed by an arrow at one side as shown below,
+
+UML-Building Blocks
+Association: A set of links that associates the entities to the UML model. It tells how many elements are actually taking part in forming that relationship.
+
+It is denoted by a dotted line with arrowheads on both sides to describe the relationship with the element on both sides.
+
+UML-Building Blocks
+Generalization: It portrays the relationship between a general thing (a parent class or superclass) and a specific kind of that thing (a child class or subclass). It is used to describe the concept of inheritance.
+
+It is denoted by a straight line followed by an empty arrowhead at one side.
+
+UML-Building Blocks
+Realization: It is a semantic kind of relationship between two things, where one defines the behavior to be carried out, and the other one implements the mentioned behavior. It exists in interfaces.
+
+It is denoted by a dotted line with an empty arrowhead at one side.
+
+UML-Building Blocks
+Diagrams
+The diagrams are the graphical implementation of the models that incorporate symbols and text. Each symbol has a different meaning in the context of the UML diagram. There are thirteen different types of UML diagrams that are available in UML 2.0, such that each diagram has its own set of a symbol. And each diagram manifests a different dimension, perspective, and view of the system.
+
+UML diagrams are classified into three categories that are given below:
+
+Structural Diagram
+Behavioral Diagram
+Interaction Diagram
+Structural Diagram: It represents the static view of a system by portraying the structure of a system. It shows several objects residing in the system. Following are the structural diagrams given below:
+
+Class diagram
+Object diagram
+Package diagram
+Component diagram
+Deployment diagram
+Behavioral Diagram: It depicts the behavioral features of a system. It deals with dynamic parts of the system. It encompasses the following diagrams:
+
+Activity diagram
+State machine diagram
+Use case diagram
+Interaction diagram: It is a subset of behavioral diagrams. It depicts the interaction between two objects and the data flow between them. Following are the several interaction diagrams in UML:
+
+Timing diagram
+Sequence diagram
+Collaboration diagram
